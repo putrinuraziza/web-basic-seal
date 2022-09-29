@@ -1,1 +1,129 @@
+<html>
+    <body>
+ <!-- Judul awal praktik penerapan inlent dan block element  -->
+<h1>Tabel Anggota Kelompok</h1>
+
+ <form>
+    <p>Nama:</p>
+    <input type="text"name="nama" placeholder="enter your name"><!---->
+
+    <p>Id:</p>
+    <input type="text"nomor="nomor" placeholder="enter your id number">
+
+<form>
+    <p>Universitas:</p>
+
+    <label>
+        <select>
+            <option value=""></option>
+            <option value="Universitas Airlangga">Universitas Airlangga</option> 
+            <option value="Universitas Negeri Surabaya">UUniversitas Negeri Surabaya</option>
+            <option value="University of Pembangunan Nasional Veteran">UPN Veteran JATIM</option> 
+            <option value="Institut Teknologi Sepuluh Nopember ">Institut Teknologi Sepuluh Nopember </option>
+            <option value="Universitas Pelita Harapan ">Universitas Pelita Harapan</option>
+        </select>
+    </label>
+</form>
+    <p>Kelompok:</p>
+    <input type="radio" name="kelompok"id="Surabaya">
+    <label for="Surabaya">Surabaya</label><!--label adalah element sedang for adalah atribut-->
+    <!--jika for dihilangkan maka pilihan tidak akan select-->
+    <input type="radio" name="kelompok"id="BWI-Surabaya1">
+    <label for="BWI-Surabaya1">BWI-Surabaya1</label>
+    <input type="radio" name="kelompok"id="BWI-Surabaya2">
+    <label for="BWI-Surabaya2">BWI-Surabaya1</label>
+    <input type="radio" name="kelompok"id="JATIM">
+    <label for="JATIM">JATIM</label>
+</form>
+<br>
+
+<br>
+
+    <div>
+    <input type="reset"value="clear">  
+    </div>
+    
+<br>
+
+<br>
+
+<br>
+ 
+<table border="2"> <!--border adalah atribute sedangnkan "2" adalah value-->
+    <tr>
+    <th>No</th>
+    <th>Nama</th>
+    <th>Kelompok</th>
+    </tr>
+
+    <tr>
+    <td>1.</td>
+    <td>Putri Nur Azizah</td>
+    <td>Surabaya</td>
+    </tr>
+
+    <tr>
+    <td>2.</td>
+    <td>Athala gana al ghazali</td>
+    <td>Surabaya</td>
+    </tr>
+
+    <tr>
+    <td>3.</td>
+    <td>Aleksa brahmana hafizi</td>
+    <td>Surabaya</td>
+    </tr>
+
+    <tr>
+    <td>4.</td>
+    <td>Despina aziza neona</td>
+    <td>Surabaya</td>
+    </tr>
+
+    <tr>
+    <td>5.</td>
+    <td>Airlangga putra sadewa</td>
+    <td>Surabaya</td>
+    </tr>
+    <tr>
+        <td>5.</td>
+        <td>Airlangga putra sadewa</td>
+        <td>Surabaya</td>
+        </tr>
+
+        <tr>
+        <td>6.</td>
+        <td>Bernath anthonio jatmiko</td>
+        <td>Surabaya</td>
+        </tr>
+
+        <tr>
+        <td>7.</td>
+        <td>Arjun mehrama al habib</td>
+        <td>Surabaya</td>
+        </tr>
+    
+        <tr>
+        <td>8.</td>
+        <td>Moreo arizky</td>
+        <td>Surabaya</td>
+        </tr>
+        
+        <tr>
+        <td>9.</td>
+        <td>Aryana sandra aneesaa</td>
+        <td>Surabaya</td>
+        </tr>
+
+        <tr>
+        <td>10.</td>
+        <td>Almanna raya habibi</td>
+        <td>Surabaya</td>
+        </tr>
+
+
+
+
+    </body>
+</html>
 
