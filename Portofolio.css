@@ -1,0 +1,16 @@
+<style>
+body {
+  background-color: rosybrown;
+}
+.Box   {
+    color: black;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.Box-external   {
+    color:goldenrod;
+    background-color: rgb(215, 113, 45);
+    margin: 100px;
+    padding-inline: 200px;
+}
+
