@@ -1,13 +1,44 @@
 
+.nav ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav li   {
+  float: left;
+
+}
+
+.nav li  a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div  p   {
+  color: rgb(83, 30, 3); 
+  font-weight: bold; 
+  font-size: 156px;
+  text-align: center;
+  background-color: rgb(218, 139, 20);
+}
+
 .Box   {
     color: black;
     margin-bottom: 50px;
     font-weight: bold;
+    text-align: center;
 }
 .Box-external   {
-    color:goldenrod;
+    color:rgb(255, 255, 255);
     background-color: rgb(215, 113, 45);
     margin: 100px;
     padding-inline: 200px;
+    text-align: center;
 }
 
